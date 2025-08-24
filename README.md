@@ -70,20 +70,6 @@ server/
 └── README.md                   # 프로젝트 문서
 ```
 
-## 🔧 환경 변수
-
-프로젝트 루트에 `.env` 파일을 생성하여 환경 변수를 설정할 수 있습니다:
-
-```bash
-# .env 파일 예시
-DB_HOST=localhost
-DB_PORT=3306
-DB_DATABASE=dbname
-DB_USERNAME=root
-DB_PASSWORD=pw
-DB_LOGGING_ENABLED=true
-```
-
 ## 📝 개발 가이드
 
 ### NestJS 애플리케이션 실행
@@ -129,9 +115,3 @@ docker-compose logs -f mysql
 # 컨테이너 내부 접속
 docker exec -it hhplus-mysql bash
 ```
-
-## ⚠️ 주의사항
-
-- 실제 운영 환경에서는 강력한 비밀번호를 사용하세요
-- 데이터베이스 백업을 정기적으로 수행하세요
-- 네트워크 보안 설정을 확인하세요
