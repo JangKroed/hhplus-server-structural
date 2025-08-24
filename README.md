@@ -4,7 +4,7 @@ NestJS 기반의 서버 애플리케이션입니다.
 
 ## 필수 과제
 
-- [API 명세서]()
+- [API 명세서](http://110.47.85.154:32475/swagger)
 - [ERD](https://www.erdcloud.com/d/mwJD8tnp8hqC9nM8u)
   ![hhplus-week2-erd](docs/images/Server%20Structural_2.png 'erd')
 - [인프라 구성도](docs/images/InfraStructural.png)
