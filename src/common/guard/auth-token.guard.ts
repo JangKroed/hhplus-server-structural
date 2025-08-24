@@ -22,9 +22,14 @@ export class AuthTokenGuard implements CanActivate {
       return true;
     }
 
+    // TODO - 토큰 검증 로직 추가
     const request: Request = context.switchToHttp().getRequest();
     if (request['user'] == null) {
-      throw new UnauthorizedException();
+      console.error('유저정보 조회 실패');
+      // throw new UnauthorizedException({
+      //   statusCode: 401,
+      //   message: '유저정보 조회 실패',
+      // });
     }
 
     return true;
