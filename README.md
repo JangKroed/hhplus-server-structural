@@ -12,8 +12,18 @@ NestJS 기반의 서버 애플리케이션입니다.
 
 ## 심화 과제
 
-- [시퀀스 다이어그렘]()
-- [마일 스톤](https://github.com/users/JangKroed/projects/1/views/1)
+### 시퀀스 다이어그렘
+
+- 회원가입/로그인
+  ![hhplus-week2-sequence-user](docs/images/sequence_signup_login.png)
+- 콘서트 추가/조회/예약
+  ![hhplus-week2-sequence-concert](docs/images/sequence_concert_add_get.png)
+- 결제/충전
+  ![hhplus-week2-sequence-wallet](docs/images/sequence_payment_charge.png)
+
+### 마일 스톤
+
+- [바로가기](https://github.com/users/JangKroed/projects/1/views/1)
 
 ## 🚀 빠른 시작
 
