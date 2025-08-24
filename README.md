@@ -6,7 +6,7 @@ NestJS 기반의 서버 애플리케이션입니다.
 
 - [API 명세서]()
 - [ERD](https://www.erdcloud.com/d/mwJD8tnp8hqC9nM8u)
-  ![hhplus-week2-erd](docs/images/Server%20Structural.png 'erd')
+  ![hhplus-week2-erd](docs/images/Server%20Structural_2.png 'erd')
 - [인프라 구성도](docs/images/InfraStructural.png)
   ![hhplus-week2-infra](docs/images/InfraStructural.png 'infra')
 
