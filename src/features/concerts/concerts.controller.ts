@@ -220,7 +220,7 @@ export class ConcertsController {
     schema: {
       type: 'object',
       properties: {
-        list: {
+        detail: {
           type: 'object',
           properties: {
             id: { type: 'string', example: '1' },
