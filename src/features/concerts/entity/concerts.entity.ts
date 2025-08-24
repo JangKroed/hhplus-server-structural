@@ -30,7 +30,7 @@ export class ConcertsEntity {
   @Column({ type: 'timestamp' })
   reserve_start_date: Date;
 
-  @Column()
+  @Column({ default: 50 })
   seat_count: number;
 
   @Column()
