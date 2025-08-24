@@ -184,6 +184,7 @@ export class UsersController {
       },
     },
   })
+  @ApiSecurity('Authorisation')
   @UseGuards(AuthTokenGuard)
   @Post('info')
   async getUserInfo() {
@@ -226,6 +227,7 @@ export class UsersController {
       },
     },
   })
+  @ApiSecurity('Authorisation')
   @UseGuards(AuthTokenGuard)
   @Post('token')
   async getUserToken() {
